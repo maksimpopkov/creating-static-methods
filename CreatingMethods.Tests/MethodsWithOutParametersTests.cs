@@ -13,7 +13,7 @@ namespace CreatingMethods.Tests
             MethodsWithOutParameters.ReturnValues(out bool trueValue, out var falseValue);
 
             Assert.AreEqual(true, trueValue);
-            Assert.AreEqual(falseValue, false);
+            Assert.AreEqual(false, falseValue);
         }
 
         [Test]
